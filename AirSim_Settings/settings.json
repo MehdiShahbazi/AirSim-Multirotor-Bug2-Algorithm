@@ -1,0 +1,120 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ViewMode": "SpringArmChase",
+  "SubWindows": [
+    {"WindowID": 0, "CameraID": 0, "ImageType": 0, "Visible": false},
+    {"WindowID": 1, "CameraID": 0, "ImageType": 3, "Visible": false},
+    {"WindowID": 2, "CameraID": 0, "ImageType": 6, "Visible": false}
+    ],
+	
+  "Recording": {
+    "RecordOnMove": false,
+    "RecordInterval": 0.1,
+    "Folder": "",
+    "Enabled": false,
+    "Cameras": [
+        { "CameraName": "0", "ImageType": 0, "PixelsAsFloat": false},
+		{ "CameraName": "0", "ImageType": 3, "PixelsAsFloat": true}
+    ]
+  },
+  
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 256,
+        "Height": 144
+      },
+      {
+        "ImageType": 3,
+        "Width": 256,
+        "Height": 144
+      }
+    ],
+    "NoiseSettings": [
+      {
+        "Enabled": false,
+        "ImageType": 0,
+
+        "RandContrib": 0.2,
+        "RandSpeed": 100000.0,
+        "RandSize": 500.0,
+        "RandDensity": 2,
+
+        "HorzWaveContrib":0.03,
+        "HorzWaveStrength": 0.08,
+        "HorzWaveVertSize": 1.0,
+        "HorzWaveScreenSize": 1.0,
+
+        "HorzNoiseLinesContrib": 1.0,
+        "HorzNoiseLinesDensityY": 0.01,
+        "HorzNoiseLinesDensityXY": 0.5,
+
+        "HorzDistortionContrib": 1.0,
+        "HorzDistortionStrength": 0.002
+      }]
+  },
+  
+  "Vehicles": {
+		"MyDrone": {
+			"VehicleType": "SimpleFlight",
+			"AutoCreate": true,
+			"Sensors": {
+				"Distance_M90": {
+					"SensorType": 5,
+					"Enabled" : true,
+					"MinDistance": 0.5,
+					"MaxDistance": 5.5,
+					"X": 0, "Y": 0, "Z": 0,
+					"Yaw": -90, "Pitch": -4.8, "Roll": 20,
+					"DrawDebugPoints": false
+				},
+				"Distance_M30": {
+					"SensorType": 5,
+					"Enabled" : true,
+					"MinDistance": 0.5,
+					"MaxDistance": 5.5,
+					"X": 0, "Y": 0, "Z": 0,
+					"Yaw": -30, "Pitch": -4.8, "Roll": 0,
+					"DrawDebugPoints": false
+				},
+				"Distance_0": {
+					"SensorType": 5,
+					"Enabled" : true,
+					"MinDistance": 0.5,
+					"MaxDistance": 5.5,
+					"X": 0, "Y": 0, "Z": 0,
+					"Yaw": 0, "Pitch": -4.8, "Roll": 0,
+					"DrawDebugPoints": false
+				},
+				"Distance_30": {
+					"SensorType": 5,
+					"Enabled" : true,
+					"MinDistance": 0.5,
+					"MaxDistance": 5.5,
+					"X": 0, "Y": 0, "Z": 0,
+					"Yaw": 30, "Pitch": -4.8, "Roll": 0,
+					"DrawDebugPoints": false
+				},
+				"Distance_90": {
+					"SensorType": 5,
+					"Enabled" : true,
+					"MinDistance": 0.5,
+					"MaxDistance": 5.5,
+					"X": 0, "Y": 0, "Z": 0,
+					"Yaw": 90, "Pitch": -4.8, "Roll": 0,
+					"DrawDebugPoints": false
+			}	}
+		}
+  }
+}
+
+"ViewMode": "NoDisplay"
+"ViewMode": "SpringArmChase"
+
+
+"SimMode": ""
+"SimMode": "ComputerVision"
+"SimMode": "Multirotor"
