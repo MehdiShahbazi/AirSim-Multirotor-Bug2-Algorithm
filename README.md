@@ -69,7 +69,7 @@ This repository is inspired by the work of *Mohammad Hashemi*, a fellow alumnus 
 
 ## References
 
-- <a id="1">[1]</a> [K. N. McGuire, G. C. de Croon, and K. Tuyls, “A comparative study of bug algorithms for robot navigation,” Robotics and Autonomous Systems, vol. 121, p. 103261, 2019.](https://doi.org/10.1016/j.robot.2019.103261)
+- <a id="1"></a> [K. N. McGuire, G. C. de Croon, and K. Tuyls, “A comparative study of bug algorithms for robot navigation,” Robotics and Autonomous Systems, vol. 121, p. 103261, 2019.](https://doi.org/10.1016/j.robot.2019.103261)
 
 - The environment utilized in this project is the *Modular Building Set*, which can be obtained from this [link](https://www.unrealengine.com/marketplace/en-US/product/modular-building-set/). The environment also incorporates packages such as the *Vehicle Variety Pack* available [here](https://www.unrealengine.com/marketplace/en-US/product/bbcb90a03f844edbb20c8b89ee16ea32) and the *Modular Neighborhood Pack* accessible [here](https://www.unrealengine.com/marketplace/en-US/product/modular-neighborhood-pack).
 
