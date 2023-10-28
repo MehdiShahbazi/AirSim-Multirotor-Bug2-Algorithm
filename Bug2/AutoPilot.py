@@ -58,7 +58,6 @@ class AutoPilot:
         turn_start_timer = np.inf
         max_wait_time = 5
         
-        
         turn_timer_checker = False
         obstacle_in_list = False
         use_pos_x = False

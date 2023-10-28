@@ -5,9 +5,10 @@ import airsim
 
 # Connect to the quadcopter
 client = airsim.MultirotorClient()
-client.enableApiControl(True)
-client.armDisarm(True)
-client.takeoffAsync(timeout_sec=0.2).join()
+# client.enableApiControl(True)
+# client.armDisarm(True)
+# client.takeoffAsync(timeout_sec=0.2).join()
+client.confirmConnection()
 
 
 
