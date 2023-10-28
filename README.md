@@ -13,12 +13,12 @@ There are several variations of the Bug algorithms that currently exist [[1]](#1
 3. **Bug 2**: Bug 1 tends to generate longer paths than necessary because it needs to map the entire border of the obstacle. However, Bug 2 introduces a new concept called M-line, which is an imaginary line drawn between the starting and target positions. Bug 2 follows along the obstacle's border until it reaches the same M-line on the opposite side. If the point on this M-line is closer to the target than where it currently hit the obstacle, Bug 2 will then navigate away from it.
 
 <div style="text-align: center;">
-  <img src="./Images/Bugs Example 1.png" alt="Bugs_1" width="800" height="276">
+  <img src="./Images/Bugs Example 1.PNG" alt="Bugs_1" width="800" height="276">
   <p>The behavior of simple Bug Algorithms.</p>
 </div>
 
 <div style="text-align: center;">
-  <img src="./Images/Bugs Example 2.png" alt="Bugs_1" width="800" height="291">
+  <img src="./Images/Bugs Example 2.PNG" alt="Bugs_1" width="800" height="291">
   <p>Generated paths by Bug Algorithms.</p>
 </div>
 
@@ -50,9 +50,9 @@ In the `AutoPilot.py` script, the default setting for the `save_plot_list` varia
 ## Showcase
 You can view examples of movement through the following GIFs, providing a visual showcase of navigation.
 <div style="display: flex;">
-  <img src="./Images/GIF 1.gif" width="33%" />
-  <img src="./Images/GIF 2.gif" width="33%" />
-  <img src="./Images/GIF 3.gif" width="33%" />
+  <img src="./Images/GIF 1.gif" width="31%" />
+  <img src="./Images/GIF 2.gif" width="31%" />
+  <img src="./Images/GIF 3.gif" width="31%" />
 </div>
 
 
