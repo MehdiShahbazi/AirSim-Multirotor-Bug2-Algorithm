@@ -43,7 +43,7 @@ Additionally, `Unreal Engine 4.27` is required to simulate the environment.
 
 Please note that each run may **not** always successfully complete due to potential noise in the quadcopter's movement and sensors. If a run fails, consider re-running the code.
 
-#### Multirotor Trajectory Visualization
+### Multirotor Trajectory Visualization
 In the `AutoPilot.py` script, the default setting for the `save_plot_list` variable is `True`. After a successful run, a compressed pickle file named `path_plot_points.pbz2` is generated in the `./Bug2/Saved` directory. You can visualize the trajectory points in two ways:
 1. Set the `plot_path_planning` variable from `False` to `True` in the script. This will continuously plot the trajectory points in real-time as the multirotor moves towards its target destination.
 2. Go to the `./AirSim_Settings` directory. Copy the `settings_computervision.json` file and paste it into the `./Users/YourUserName/Documents/AirSim` directory. Rename the file from `settings_computervision.json` to `settings.json`. Finally, run `./Bug2/PathPlot.py` to plot the saved trajectory points separately. You can control the camera using the keyboard's A, W, S, D, and arrow keys.
@@ -58,7 +58,7 @@ You can view examples of movement through the following GIFs, providing a visual
 </div>
 
 
-#### Video Demonstration
+### Full Video Demonstration
 For a more in-depth demonstration, please visit [this link](https://youtu.be/486aIvB4I_c) to observe the multirotor navigation in action within the AirSim simulator.
 
 
