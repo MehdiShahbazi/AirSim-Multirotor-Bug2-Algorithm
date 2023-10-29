@@ -59,7 +59,7 @@ You can view examples of movement through the following GIFs, providing a visual
 
 
 ### Full Video Demonstration
-For a more in-depth demonstration, please visit [this link](https://youtu.be/486aIvB4I_c) to observe the multirotor navigation in action within the AirSim simulator.
+For a more in-depth demonstration, please visit [this link](https://youtu.be/XPVODZV9DNA) to observe the multirotor navigation in action within the AirSim simulator.
 
 
 
